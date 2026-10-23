@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch / Checkpoints / Weights
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+checkpoints/
+saved_models/
+
+# Dataset and Processed Features
+data/
+Dataset SCM/
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.flv
+*.avi
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Experiment Logs and Visualizations
+logs/
+wandb/
+runs/
+results/
+*.log
+*.tfevents*
+audio_features_test.png
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS-Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Chat History, Internal Transcripts, and Protobufs
+conversations/
+*.pb
+archive/conversations/
+*.tmp
